@@ -1,0 +1,35 @@
+body{
+margin: 30px;
+padding: 10px;
+}
+
+.chatbubble{
+  position: relative;
+  margin-bottom: 30px;
+  background-color: #dcf8c6;
+  border-radius: .4em;
+  padding: 10px;
+  width: 50%;
+}
+.chatbubble:after {
+  content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #dcf8c6;
+	border-bottom: 0;
+	border-right: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+}
+  .chatbubble img{
+    width: 20%;
+  }
+
+/*
+References:
+- chatbubble: https://leaverou.github.io/bubbly/
+*/
